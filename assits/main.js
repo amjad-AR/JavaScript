@@ -1,17 +1,13 @@
 let x = 5;
 let y = 4;
 let z = 8;
-
-if (x > y) {
-    if (x < z) {
-        console.log(z)
-    } else {
-        console.log(x)
-    }
+let max;
+if (x > y && x > y) {
+    max = x
+} else if (y > x && y > z) {
+    max = y;
 } else {
-    if (y < z) {
-        console.log(z)
-    } else {
-        console.log(y)
-    }
+    max = z
 }
+
+console.log(max)
