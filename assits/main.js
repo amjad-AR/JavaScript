@@ -135,8 +135,6 @@ function isVowle(str) {
 console.log(isVowle("amjad"));
 */
 
-
-
 /*---------------------------------------------------------------*/
 /*-------------------Q-5-----------------------------------------*/
 // function counter(str, num) {
@@ -144,3 +142,102 @@ console.log(isVowle("amjad"));
 
 // }
 // console.log(counter("amjad", 2));
+
+// ///////////////////////////////////
+// ///////////////////////////////////
+// ///////////////////////////////////
+// let str = "Hello\nAmjad\t:)";
+// let num = 333;
+// let dicNum = 18.1;
+
+// console.log(str)
+
+// let file = "c:\Users\PC18\Desktop\our-company\Our-Company-project"
+// console.log(`file:///${file.replace(/\\/g, "/")}`);
+
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+
+// let age = 22;
+// let str = "amjad";
+// console.log(`my name is ${str} and I am ${age} years old`);
+// console.log("my name is " + str + " and I am " + age + " years old");
+
+// let num = 100;
+// let str = "100";
+// let sum = num + Number(str);
+// console.log(sum);
+
+// let num1 = 5;
+// let num2 = 3;
+// let avg = (num1 + num2) / 2;
+// console.log(avg);
+// let arr = [num1, num2];
+// let avg2 ;
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++){
+//     sum += arr[i];
+// }
+
+// avg2 = sum / arr.length;
+// console.log(avg2);
+
+// let arr = ["amjad", "ahmad", "rita", "nour"];
+// arr.splice(1,1);
+// arr.push("adnan");
+// arr.unshift("hamza");
+// arr.splice(arr.length, 0 , "tahseen")
+// console.log(arr);
+
+// let str = "hello may name Is amjad alaranji";
+// let arr = str.split(" ", 2);
+// console.log(arr);
+
+// let newArr = ["hello", "world"];
+// let newStr = newArr.join(" ")
+// console.log(newStr)
+
+// let Arr = [1, 2, 3];
+// let Str = JSON.stringify(Arr);
+// console.log(Str); // "[1,2,3]"
+/*
+// let numbers = [3, 7, 2, 7, 9, 2, 5, 7, 2];
+// // let newNumbers = [...new Set(numbers)];
+// let newNumbers = numbers.filter((Value, index ,arr) => {
+//   return arr.indexOf(Value) === index;
+// }) .sort();
+// let sum = newNumbers.reduce((a, b) => {
+//     return a + b;
+// })
+// console.log(newNumbers);
+// console.log(sum);
+*/
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let uniqueArr = [...new Set(arr)];
+// let sum2 = newNumbers.reduce((a , b) => {
+//     return a + b
+// }, 0)
+// console.log(uniqueArr);
+// console.log(sum2);
+
+// let arr = [58, 59, 60, 75, 80, 97, 50];
+// let filArr = arr.filter((item) => {
+//     if (item == 58 || item == 59) {
+//         return item
+//     }
+// })
+// let newArr = arr.map((Value) => {
+//   if (Value === 58) {
+//     return Value + 2;
+//   } else if (Value === 59) {
+//     return Value + 1;
+//   } else {
+//     return Value;
+//   }
+// });
+// console.log(arr);
+// console.log(filArr);
+// console.log(newArr);
+
